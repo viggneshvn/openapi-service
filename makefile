@@ -12,4 +12,4 @@ run: build
 .PHONY: build clean run
 
 generate:
-	openapi-generator generate -i openapi.yaml -g go -o .
+	openapi-generator generate -i openapi.yaml -g go -o ./gen
